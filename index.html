@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Content</title>
+</head>
+<body>
+    <header>
+        <h1>Advanced HTML5 Content</h1>
+    </header>
+    <main>
+        <section id="lists">
+        <ol>
+            <li>Lists
+                <ul>
+                    <li>
+                        <ul>
+                            <li>ordered</li>
+                            <li>unordered</li>
+                            <li>description</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                images
+            </li>
+            <li>Videos</li>
+            <li>Audio</li>
+            <li>Tables</li>
+        </ol>
+</section>
+
+<section id="images">
+    <h2>images</h2>
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image "  width="300" height="200">
+</section>
+<section id="Tables">
+    <h3>Tables</h3>
+
+
+    <table border="1">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>Alice</td>
+                <td>30</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>25</td>
+                <td>Los Angeles</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>35</td>
+                <td>Chicago</td>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">End of Table</td>
+            </tr>
+
+    </table>
+</section>
+<section id="audio">
+    <h4>Audio</h4>
+    
+    <audio controls  width="300" height="32">
+        <source src="https://www.example.com/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</section>
+<section id="video">
+        <h5>Video</h5>
+        <video controls width="320" height="240">
+            <source src="https://downloadwella.com/8c5hqlehkdzp/Unknown.Number.The.High.School.Catfish.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+</section>
+<section id="form">
+    <h6>Form</h6>
+    <form action="#" method="post" autocomplete="on" novalidate>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">Full Name *</label>
+            <input type="text" id="fullname" name="fullname" placeholder="e.g. Jane Doe" required minlength="3" autocomplete="name" >
+<br>
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="e.g. jane.doe@example.com" required autocomplete="email">
+            <br>
+            <label for="dob">Date of Birth *</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+            <label for="zip">Zip Code *</label>
+            <input type="text" name="zip" pattern="[0-9]{5}" title="Enter a 5-digit zip code">
+
+        </fieldset>
+    </form>
+</section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Advanced HTML5 Content</p>
+    </footer>
+</body>
+</html>
